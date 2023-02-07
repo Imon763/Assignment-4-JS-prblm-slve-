@@ -1,4 +1,4 @@
-/*----------- Let's play a mind game -------------*/
+ /*----------- Let's play a mind game -------------*/
 function mindGame(num) {
     let result = (num * 3 + 10) / 2 - 5;
     return result;
@@ -40,7 +40,7 @@ function isLGSeven(input) {
   let result = isLGSeven(13);
   console.log(result);
 
-
+ 
 
 
 /*--------- Finding Bad data -----------*/
