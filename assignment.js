@@ -4,6 +4,7 @@ function mindGame(num) {
     return result;
 }
 let answer = mindGame(50);
+console.log(answer);
 
 
 
@@ -11,13 +12,14 @@ let answer = mindGame(50);
 function evenOdd(stringdata){
     let length = stringdata.length;
     if (length % 2 === 0){
-        return 'Even'
+        return 'even'
     }
     else{
-        return 'Odd'
+        return 'odd'
     }
 }
-let output = evenOdd('Batch7')
+let output = evenOdd('Batch7');
+console.log(output);
 
 
 
@@ -29,12 +31,14 @@ function isLGSeven(input) {
     let difference = Math.abs(input - 7);
     if (difference < 7) {
       return difference;
-    } else {
+    } 
+    else {
       return 2 * difference;
     }
   }
 
   let result = isLGSeven(13);
+  console.log(result);
 
 
 
@@ -53,6 +57,7 @@ function findingBadData(arr) {
   }
   const arr = [3, 42, -5, 4, -6, 7, 0, -9, 14, -17]
   const count = findingBadData(arr);
+  console.log(count);
 
 
 /*--------- Convert your gemes into diamond ---------*/
@@ -70,6 +75,7 @@ function gemesToDiamond (f1Gems, f2Gems, f3Gems){
     }
 }
 const extraDiamond = gemesToDiamond(100,5,1);
+console.log(extraDiamond);
 
 
 
